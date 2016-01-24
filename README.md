@@ -7,7 +7,6 @@ Venues to add:
     - Yoshi's
   - SF
     - The Independent
-    - The Chapel
     - The Fillmore
     - Brick and Mortar
     - 1050 Folsom
