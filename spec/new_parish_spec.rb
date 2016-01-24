@@ -2,7 +2,7 @@ require "pry"
 require_relative "../lib/new_parish"
 RSpec.describe NewParish do
 
-  before(:each) { stub_const("NewParish::URL", "spec/fixtures/new_parish.html") }
+  before(:each) { allow(NewParish).to receive(:url) { "spec/fixtures/new_parish.html" } }
 
   it "returns an array of shows" do
     shows = NewParish.new.shows
