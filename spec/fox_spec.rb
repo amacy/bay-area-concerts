@@ -8,8 +8,8 @@ RSpec.describe Fox do
     shows = Fox.new.shows
     show = shows.first
     expect(shows.length).to eq 35
-    expect(show.date).to eq "Saturday,January 23"
-    expect(show.description).to eq "Two Nights!The Devil Makes Three"
+    expect(show.date.to_s).to eq "2016-01-23"
+    expect(show.description.strip).to eq "The Devil Makes Three"
     expect(show.location).to eq Fox.name
   end
 end

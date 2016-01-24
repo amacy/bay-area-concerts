@@ -1,4 +1,4 @@
-require "venue"
+require_relative "venue"
 
 class NewParish < Venue
 
