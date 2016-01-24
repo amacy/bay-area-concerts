@@ -1,5 +1,6 @@
 require "pry"
 require_relative "../lib/new_parish"
+
 RSpec.describe NewParish do
 
   before(:each) { allow(NewParish).to receive(:url) { "spec/fixtures/new_parish.html" } }
